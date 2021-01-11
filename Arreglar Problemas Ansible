@@ -1,0 +1,7 @@
+FAILED! => {"msg": "Missing sudo password"}
+
+Agregar en /etc/sudoers.d un archivo con el nombre del usuario que va a correr el playbook, ejemplo "ansadmin"
+En el archivo poner esto:
+# vi ansadmin
+
+username-u-want-to-allow  ALL=(ALL)  NOPASSWD: ALL
