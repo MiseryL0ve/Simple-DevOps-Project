@@ -1,0 +1,4 @@
+Particularmente bueno para EC2
+En /etc/ssh/sshd_config
+
+ClientAliveInterval 60
